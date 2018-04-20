@@ -25,8 +25,7 @@ public class CharacterValidatorTest {
   })
   @Test
   public void validateShouldReturnTrue(final String input) {
-    String response = validator.validate(input);
-    assertThat(response, is("TRUE"));
+    assertThat(validator.validate(input), is("TRUE"));
   }
 
   @Parameters( {
@@ -36,8 +35,7 @@ public class CharacterValidatorTest {
   })
   @Test
   public void validateShouldReturnFalse(final String input) {
-    String response = validator.validate(input);
-    assertThat(response, is("FALSE"));
+    assertThat(validator.validate(input), is("FALSE"));
   }
 
   @Parameters( {
@@ -47,7 +45,7 @@ public class CharacterValidatorTest {
       "abc",
   })
   @Test
-  public void validateShouldThrowIllegalArgumentException(final String input) {
+  public void validateShouldThrowInputMismatchException(final String input) {
     try {
       validator.validate(input);
       fail();

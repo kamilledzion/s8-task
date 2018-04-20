@@ -19,8 +19,7 @@ public class CharacterValidator {
 
     Deque<Character> deque = new ArrayDeque<>();
     for (char element : input.toCharArray()) {
-      int openPosition = getPositionInOpenCharacter(element);
-      if (openPosition != -1) {
+      if (getPositionInOpenCharacter(element) != -1) {
         deque.addLast(element);
       } else {
         int closePosition = getPositionInCloseCharacter(element);
