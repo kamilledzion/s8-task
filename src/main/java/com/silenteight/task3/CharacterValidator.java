@@ -6,7 +6,7 @@ import java.util.Deque;
 import java.util.InputMismatchException;
 import java.util.regex.Pattern;
 
-public class CharacterValidator {
+public final class CharacterValidator {
 
   private static final String RESPONSE_CORRECT = "TRUE";
   private static final String RESPONSE_INCORRECT = "FALSE";
