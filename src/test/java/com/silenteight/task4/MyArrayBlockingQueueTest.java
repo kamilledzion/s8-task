@@ -8,7 +8,7 @@ import static org.junit.Assert.assertThat;
 import java.util.concurrent.BlockingQueue;
 import org.junit.Test;
 
-public class TaskRunnerTest {
+public class MyArrayBlockingQueueTest {
 
   public static final int MAX_TASK_SIZE = 100;
 
@@ -16,7 +16,7 @@ public class TaskRunnerTest {
   private TaskProducer producer;
   private TaskConsumer consumer;
 
-  public TaskRunnerTest() {
+  public MyArrayBlockingQueueTest() {
     taskQueue = new MyArrayBlockingQueue<>(MAX_TASK_SIZE);
     producer = new TaskProducer(taskQueue);
     consumer = new TaskConsumer(taskQueue);
