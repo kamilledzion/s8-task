@@ -4,7 +4,7 @@ import java.util.concurrent.BlockingQueue;
 
 public class TaskRunner {
 
-  public static final int MAX_TASK_SIZE = 100;
+  private static final int MAX_TASK_SIZE = 100;
 
   public static void main(String[] args) {
     BlockingQueue<Task> taskQueue = new MyArrayBlockingQueue<>(MAX_TASK_SIZE);

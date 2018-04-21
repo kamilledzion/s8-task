@@ -1,13 +1,14 @@
 package com.silenteight.task4;
 
-import static com.silenteight.task4.TaskRunner.MAX_TASK_SIZE;
-
 import java.util.concurrent.ArrayBlockingQueue;
 
 public class MyArrayBlockingQueue<E> extends ArrayBlockingQueue<E> {
 
+  private final int maxSize;
+
   public MyArrayBlockingQueue(int capacity) {
     super(capacity);
+    maxSize = capacity;
   }
 
   @Override
@@ -39,6 +40,6 @@ public class MyArrayBlockingQueue<E> extends ArrayBlockingQueue<E> {
   }
 
   private boolean isHalf() {
-    return super.remainingCapacity() == (MAX_TASK_SIZE / 2) - 1;
+    return super.remainingCapacity() == (maxSize / 2) - 1;
   }
 }
