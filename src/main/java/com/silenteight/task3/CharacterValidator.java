@@ -10,9 +10,9 @@ public final class CharacterValidator {
 
   private static final String RESPONSE_CORRECT = "TRUE";
   private static final String RESPONSE_INCORRECT = "FALSE";
+  private static final String INPUT_REGEX = "[0-9()\\[\\]]+";
   private static final char[] OPEN_CHARACTER = {'[', '('};
   private static final char[] CLOSE_CHARACTER = {']', ')'};
-  private static final String INPUT_REGEX = "[0-9()\\[\\]]+";
 
   public String validate(final String input) {
     valid(input);
