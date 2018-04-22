@@ -5,7 +5,7 @@ import static java.util.Arrays.stream;
 import java.util.HashSet;
 import java.util.Set;
 
-public class IslandService {
+public class IslandCounter {
 
   private static final int ISLAND = 1;
   private static final int[][] NEIGHBOR = new int[][] {
@@ -17,7 +17,7 @@ public class IslandService {
   private final int size;
   private final DisjointSet disjointSet;
 
-  public IslandService(int[][] map) {
+  public IslandCounter(int[][] map) {
     this.map = stream(map)
         .map((int[] row) -> row.clone())
         .toArray((int length) -> new int[length][]);

@@ -5,7 +5,7 @@ import static org.junit.Assert.assertThat;
 
 import org.junit.Test;
 
-public class IslandServiceTest {
+public class IslandCounterTest {
 
   @Test
   public void countShouldReturnFour() {
@@ -20,7 +20,7 @@ public class IslandServiceTest {
         {0, 0, 0, 0, 0, 1, 1, 0, 0},
     };
 
-    assertThat(new IslandService(map).count(), is(4));
+    assertThat(new IslandCounter(map).count(), is(4));
   }
 
   @Test
@@ -33,7 +33,7 @@ public class IslandServiceTest {
         {1, 0, 1, 0, 1}
     };
 
-    assertThat(new IslandService(map).count(), is(5));
+    assertThat(new IslandCounter(map).count(), is(5));
   }
 
   @Test
@@ -46,6 +46,6 @@ public class IslandServiceTest {
       }
     }
 
-    assertThat(new IslandService(map).count(), is(1));
+    assertThat(new IslandCounter(map).count(), is(1));
   }
 }
