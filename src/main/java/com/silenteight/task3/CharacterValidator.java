@@ -30,9 +30,12 @@ public final class CharacterValidator {
       }
     }
 
-    return deque.isEmpty() ?
+    String response = deque.isEmpty() ?
         RESPONSE_CORRECT :
         RESPONSE_INCORRECT;
+    System.out.println(response);
+
+    return response;
   }
 
   private void valid(String input) {
