@@ -107,17 +107,17 @@
       <point x="1059.6306818181818" y="916.0" />
       <point x="39.75" y="48.0" />
     </edge>
-    <edge source="com.silenteight.task2.Company" target="com.silenteight.task2.Address">
-      <point x="84.75" y="-103.0" />
-      <point x="1016.8068181818181" y="660.0" />
-      <point x="1159.6306818181818" y="660.0" />
-      <point x="-40.25" y="92.0" />
-    </edge>
     <edge source="com.silenteight.task2.Meeting" target="com.silenteight.task2.Category">
       <point x="-110.0" y="-136.0" />
       <point x="327.09848484848476" y="338.0" />
       <point x="83.0" y="338.0" />
       <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="com.silenteight.task2.Company" target="com.silenteight.task2.Address">
+      <point x="84.75" y="-103.0" />
+      <point x="1016.8068181818181" y="660.0" />
+      <point x="1159.6306818181818" y="660.0" />
+      <point x="-40.25" y="92.0" />
     </edge>
     <edge source="com.silenteight.task2.Meeting" target="com.silenteight.task2.Time">
       <point x="0.0" y="-136.0" />
@@ -154,7 +154,7 @@
       <point x="40.25" y="92.0" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="749.0" y="317.5" />
+  <settings layout="Hierarchic Group" zoom="1.0" x="557.0" y="666.5" />
   <SelectedNodes />
   <Categories>
     <Category>Fields</Category>
