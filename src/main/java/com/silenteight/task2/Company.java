@@ -6,7 +6,7 @@ public class Company {
 
     private long id;
     private String name;
-    private int taxId;
+    private String taxId;
     private Address address;
     private List<Employee> employeeList;
     private List<Resource> resourceList;
