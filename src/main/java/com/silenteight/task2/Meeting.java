@@ -9,10 +9,10 @@ public class Meeting {
     private Category category;
     private Room room;
     private List<Resource> resourceList;
-    private List<Employee> requiredList;
-    private List<Employee> optionalList;
+    private List<Employee> requiredParticipantList;
+    private List<Employee> optionalParticipantList;
     private Time time;
     private Recurrence recurrence;
-    private Meeting nextMeeting;
-    private Meeting previousMeeting;
+    private Meeting nextRecurrenceMeeting;
+    private Meeting previousRecurrenceMeeting;
 }

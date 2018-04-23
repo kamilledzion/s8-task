@@ -4,6 +4,5 @@ public class Resource {
 
     private long id;
     private String name;
-    private Company company;
     private Calendar calendar;
 }

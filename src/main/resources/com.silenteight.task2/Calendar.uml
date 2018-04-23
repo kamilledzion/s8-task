@@ -3,167 +3,165 @@
   <ID>JAVA</ID>
   <OriginalElement>com.silenteight.task2</OriginalElement>
   <nodes>
-    <node x="600.5854166666667" y="603.0">com.silenteight.task2.Recurrence</node>
-    <node x="244.68229166666666" y="168.0">com.silenteight.task2.Contact</node>
-    <node x="179.75" y="1282.0">com.silenteight.task2.Resource</node>
-    <node x="144.2625" y="1136.0">com.silenteight.task2.Calendar</node>
-    <node x="797.5854166666666" y="614.0">com.silenteight.task2.Category</node>
-    <node x="19.75" y="603.0">com.silenteight.task2.Room</node>
-    <node x="61.694791666666674" y="124.0">com.silenteight.task2.Address</node>
-    <node x="820.0854166666666" y="391.0">com.silenteight.task2.CategoryType</node>
-    <node x="408.05729166666663" y="814.0">com.silenteight.task2.Meeting</node>
-    <node x="84.19479166666667" y="0.0">com.silenteight.task2.AddressType</node>
-    <node x="0.0" y="358.0">com.silenteight.task2.Company</node>
-    <node x="406.5854166666667" y="603.0">com.silenteight.task2.Time</node>
-    <node x="267.18229166666663" y="0.0">com.silenteight.task2.ContactType</node>
-    <node x="623.0854166666667" y="380.0">com.silenteight.task2.RecurrenceType</node>
-    <node x="218.58541666666667" y="570.0">com.silenteight.task2.Employee</node>
+    <node x="186.0" y="168.0">com.silenteight.task2.Recurrence</node>
+    <node x="938.1761363636364" y="446.0">com.silenteight.task2.Contact</node>
+    <node x="577.0" y="190.0">com.silenteight.task2.Resource</node>
+    <node x="590.7840909090909" y="735.0">com.silenteight.task2.Calendar</node>
+    <node x="759.0" y="190.0">com.silenteight.task2.Room</node>
+    <node x="0.0" y="190.0">com.silenteight.task2.Category</node>
+    <node x="22.5" y="11.0">com.silenteight.task2.CategoryType</node>
+    <node x="1117.1761363636365" y="402.0">com.silenteight.task2.Address</node>
+    <node x="299.32575757575756" y="358.0">com.silenteight.task2.Meeting</node>
+    <node x="1139.6761363636365" y="201.0">com.silenteight.task2.AddressType</node>
+    <node x="818.7840909090909" y="680.0">com.silenteight.task2.Company</node>
+    <node x="383.0" y="179.0">com.silenteight.task2.Time</node>
+    <node x="208.5" y="0.0">com.silenteight.task2.RecurrenceType</node>
+    <node x="960.6761363636364" y="201.0">com.silenteight.task2.ContactType</node>
+    <node x="768.125" y="956.0">com.silenteight.task2.Employee</node>
   </nodes>
   <notes />
   <edges>
     <edge source="com.silenteight.task2.Calendar" target="com.silenteight.task2.Employee">
-      <point x="-26.0" y="-48.0" />
-      <point x="222.2625" y="1111.0" />
-      <point x="258.25" y="1111.0" />
-      <point x="258.25" y="794.0" />
-      <point x="246.58541666666667" y="794.0" />
-      <point x="-56.0" y="92.0" />
+      <point x="52.0" y="48.0" />
+      <point x="746.7840909090909" y="916.0" />
+      <point x="828.125" y="916.0" />
+      <point x="-24.0" y="-92.0" />
     </edge>
     <edge source="com.silenteight.task2.Meeting" target="com.silenteight.task2.Employee">
-      <point x="-43.599999999999966" y="-136.0" />
-      <point x="473.4572916666667" y="774.0" />
-      <point x="358.5854166666667" y="774.0" />
-      <point x="56.0" y="92.0" />
+      <point x="-68.75" y="136.0" />
+      <point x="368.07575757575756" y="936.0" />
+      <point x="780.125" y="936.0" />
+      <point x="-72.0" y="-92.0" />
     </edge>
     <edge source="com.silenteight.task2.Meeting" target="com.silenteight.task2.Recurrence">
-      <point x="43.60000000000002" y="-136.0" />
-      <point x="560.6572916666667" y="784.0" />
-      <point x="689.0854166666667" y="784.0" />
-      <point x="0.0" y="59.0" />
+      <point x="-55.0" y="-136.0" />
+      <point x="381.82575757575756" y="328.0" />
+      <point x="274.5" y="328.0" />
+      <point x="0.0" y="70.0" />
     </edge>
     <edge source="com.silenteight.task2.Meeting" target="com.silenteight.task2.Room">
-      <point x="-87.19999999999993" y="-136.0" />
-      <point x="429.8572916666667" y="784.0" />
-      <point x="145.75" y="784.0" />
-      <point x="42.0" y="59.0" />
+      <point x="110.0" y="-136.0" />
+      <point x="546.8257575757575" y="338.0" />
+      <point x="786.0" y="338.0" />
+      <point x="-54.0" y="48.0" />
+    </edge>
+    <edge source="com.silenteight.task2.Company" target="com.silenteight.task2.Contact">
+      <point x="28.25" y="-103.0" />
+      <point x="960.0340909090909" y="660.0" />
+      <point x="977.9261363636364" y="660.0" />
+      <point x="-39.75" y="48.0" />
+    </edge>
+    <edge source="com.silenteight.task2.Company" target="com.silenteight.task2.Employee">
+      <point x="56.5" y="103.0" />
+      <point x="988.2840909090909" y="916.0" />
+      <point x="876.125" y="916.0" />
+      <point x="24.0" y="-92.0" />
     </edge>
     <edge source="com.silenteight.task2.Address" target="com.silenteight.task2.AddressType">
       <point x="0.0" y="-92.0" />
       <point x="0.0" y="37.0" />
     </edge>
-    <edge source="com.silenteight.task2.Company" target="com.silenteight.task2.Employee">
-      <point x="84.75" y="81.0" />
-      <point x="197.75" y="540.0" />
-      <point x="281.5854166666667" y="540.0" />
-      <point x="-21.0" y="-92.0" />
-    </edge>
     <edge source="com.silenteight.task2.Employee" target="com.silenteight.task2.Company">
-      <point x="-63.0" y="-92.0" />
-      <point x="239.58541666666667" y="550.0" />
-      <point x="141.25" y="550.0" />
-      <point x="28.25" y="81.0" />
-    </edge>
-    <edge source="com.silenteight.task2.Company" target="com.silenteight.task2.Contact">
-      <point x="56.5" y="-81.0" />
-      <point x="169.5" y="338.0" />
-      <point x="284.43229166666663" y="338.0" />
-      <point x="-39.75" y="48.0" />
+      <point x="0.0" y="-92.0" />
+      <point x="852.125" y="906.0" />
+      <point x="875.2840909090909" y="906.0" />
+      <point x="-56.5" y="103.0" />
     </edge>
     <edge source="com.silenteight.task2.Calendar" target="com.silenteight.task2.Meeting">
-      <point x="78.0" y="-48.0" />
-      <point x="326.2625" y="1111.0" />
-      <point x="462.55729166666663" y="1111.0" />
-      <point x="-54.5" y="136.0" />
+      <point x="-69.33333333333326" y="-48.0" />
+      <point x="625.4507575757576" y="660.0" />
+      <point x="505.57575757575756" y="660.0" />
+      <point x="68.75" y="136.0" />
     </edge>
     <edge source="com.silenteight.task2.Resource" target="com.silenteight.task2.Calendar">
-      <point x="0.0" y="-59.0" />
-      <point x="263.75" y="1257.0" />
-      <point x="248.2625" y="1257.0" />
       <point x="0.0" y="48.0" />
-    </edge>
-    <edge source="com.silenteight.task2.Meeting" target="com.silenteight.task2.Resource">
-      <point x="54.5" y="136.0" />
-      <point x="571.5572916666666" y="1257.0" />
-      <point x="319.75" y="1257.0" />
-      <point x="56.0" y="-59.0" />
+      <point x="658.0" y="328.0" />
+      <point x="671.625" y="328.0" />
+      <point x="671.625" y="660.0" />
+      <point x="694.7840909090909" y="660.0" />
+      <point x="0.0" y="-48.0" />
     </edge>
     <edge source="com.silenteight.task2.Room" target="com.silenteight.task2.Calendar">
-      <point x="-42.0" y="59.0" />
-      <point x="61.75" y="1111.0" />
-      <point x="170.2625" y="1111.0" />
-      <point x="-78.0" y="-48.0" />
+      <point x="0.0" y="48.0" />
+      <point x="840.0" y="338.0" />
+      <point x="861.5" y="338.0" />
+      <point x="861.5" y="660.0" />
+      <point x="764.1174242424242" y="660.0" />
+      <point x="69.33333333333337" y="-48.0" />
+    </edge>
+    <edge source="com.silenteight.task2.Meeting" target="com.silenteight.task2.Resource">
+      <point x="55.0" y="-136.0" />
+      <point x="491.82575757575756" y="328.0" />
+      <point x="604.0" y="328.0" />
+      <point x="-54.0" y="48.0" />
     </edge>
     <edge source="com.silenteight.task2.Contact" target="com.silenteight.task2.ContactType">
       <point x="0.0" y="-48.0" />
       <point x="0.0" y="37.0" />
     </edge>
-    <edge source="com.silenteight.task2.Room" target="com.silenteight.task2.Company">
-      <point x="0.0" y="-59.0" />
-      <point x="103.75" y="550.0" />
-      <point x="84.75" y="550.0" />
-      <point x="-28.25" y="81.0" />
+    <edge source="com.silenteight.task2.Company" target="com.silenteight.task2.Resource">
+      <point x="-84.75" y="-103.0" />
+      <point x="847.0340909090909" y="650.0" />
+      <point x="737.3257575757575" y="650.0" />
+      <point x="737.3257575757575" y="328.0" />
+      <point x="712.0" y="328.0" />
+      <point x="54.0" y="48.0" />
     </edge>
     <edge source="com.silenteight.task2.Employee" target="com.silenteight.task2.Contact">
-      <point x="63.0" y="-92.0" />
-      <point x="365.5854166666667" y="550.0" />
-      <point x="363.93229166666663" y="550.0" />
+      <point x="48.0" y="-92.0" />
+      <point x="900.125" y="926.0" />
+      <point x="1057.4261363636365" y="926.0" />
       <point x="39.75" y="48.0" />
     </edge>
-    <edge source="com.silenteight.task2.Meeting" target="com.silenteight.task2.Category">
-      <point x="87.20000000000005" y="-136.0" />
-      <point x="604.2572916666668" y="794.0" />
-      <point x="880.5854166666666" y="794.0" />
-      <point x="0.0" y="48.0" />
-    </edge>
     <edge source="com.silenteight.task2.Company" target="com.silenteight.task2.Address">
-      <point x="-56.5" y="-81.0" />
-      <point x="56.5" y="338.0" />
-      <point x="101.94479166666667" y="338.0" />
+      <point x="84.75" y="-103.0" />
+      <point x="1016.5340909090909" y="660.0" />
+      <point x="1157.4261363636365" y="660.0" />
       <point x="-40.25" y="92.0" />
     </edge>
-    <edge source="com.silenteight.task2.Resource" target="com.silenteight.task2.Company">
-      <point x="-56.0" y="-59.0" />
-      <point x="207.75" y="1257.0" />
-      <point x="9.25" y="1257.0" />
-      <point x="9.25" y="550.0" />
-      <point x="28.25" y="550.0" />
-      <point x="-84.75" y="81.0" />
+    <edge source="com.silenteight.task2.Meeting" target="com.silenteight.task2.Category">
+      <point x="-110.0" y="-136.0" />
+      <point x="326.82575757575756" y="338.0" />
+      <point x="83.0" y="338.0" />
+      <point x="0.0" y="48.0" />
     </edge>
     <edge source="com.silenteight.task2.Meeting" target="com.silenteight.task2.Time">
       <point x="0.0" y="-136.0" />
-      <point x="517.0572916666666" y="794.0" />
-      <point x="493.5854166666667" y="794.0" />
+      <point x="436.82575757575756" y="338.0" />
+      <point x="470.0" y="338.0" />
       <point x="0.0" y="59.0" />
     </edge>
     <edge source="com.silenteight.task2.Category" target="com.silenteight.task2.CategoryType">
       <point x="0.0" y="-48.0" />
       <point x="0.0" y="48.0" />
     </edge>
-    <edge source="com.silenteight.task2.Employee" target="com.silenteight.task2.Calendar">
-      <point x="0.0" y="92.0" />
-      <point x="302.5854166666667" y="794.0" />
-      <point x="280.0854166666667" y="794.0" />
-      <point x="280.0854166666667" y="1111.0" />
-      <point x="274.2625" y="1111.0" />
-      <point x="26.0" y="-48.0" />
-    </edge>
     <edge source="com.silenteight.task2.Recurrence" target="com.silenteight.task2.RecurrenceType">
-      <point x="0.0" y="-59.0" />
+      <point x="0.0" y="-70.0" />
       <point x="0.0" y="59.0" />
     </edge>
+    <edge source="com.silenteight.task2.Employee" target="com.silenteight.task2.Calendar">
+      <point x="-48.0" y="-92.0" />
+      <point x="804.125" y="926.0" />
+      <point x="642.7840909090909" y="926.0" />
+      <point x="-52.0" y="48.0" />
+    </edge>
+    <edge source="com.silenteight.task2.Company" target="com.silenteight.task2.Room">
+      <point x="-28.25" y="-103.0" />
+      <point x="903.5340909090909" y="660.0" />
+      <point x="896.8352272727273" y="660.0" />
+      <point x="896.8352272727273" y="338.0" />
+      <point x="894.0" y="338.0" />
+      <point x="54.0" y="48.0" />
+    </edge>
     <edge source="com.silenteight.task2.Employee" target="com.silenteight.task2.Address">
-      <point x="21.0" y="-92.0" />
-      <point x="323.5854166666667" y="550.0" />
-      <point x="312.75" y="550.0" />
-      <point x="312.75" y="328.0" />
-      <point x="182.44479166666667" y="328.0" />
+      <point x="72.0" y="-92.0" />
+      <point x="924.125" y="936.0" />
+      <point x="1237.9261363636365" y="936.0" />
       <point x="40.25" y="92.0" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="428.0" y="401.0" />
-  <SelectedNodes>
-    <node>com.silenteight.task2.Recurrence</node>
-  </SelectedNodes>
+  <settings layout="Hierarchic Group" zoom="1.0" x="589.0" y="957.5" />
+  <SelectedNodes />
   <Categories>
     <Category>Fields</Category>
   </Categories>
